@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #010101;
+    color: #ECF0F1;
+    margin: 0;
+}
+.title {
+    font-family: 'Poppins';
+    text-align: center;
+}
+.description {
+    font-family: 'Lato';
+    text-align: justify;
+}
+.blog-post {
+    background-color: #95A5A6;
+    margin: 24px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+}
+
+.header-image {
+    background-image: url("./assets/food.png");
+    padding: 48px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 24px 0px 24px;
+}
+.header-text {
+    text-align: center;
+    font-family: 'Poppins';
+    color: #ECF0F1;
+}
+.food-img {
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-right: 16px;
+}
+
+.navbar {
+    margin: 0px 24px 24px 24px;
+    background-color: #2980B9;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+float: left;
+}
+
+.navbar li a {
+display: block;
+text-align: center;
+text-decoration: none;
+font-family: 'Lato';
+color: #ECF0F1;
+padding: 14px 16px;
+}
+
+.navbar li a:hover {
+background-color: #95A5A6;
+}
